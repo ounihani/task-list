@@ -1,0 +1,31 @@
+{
+  "name": "tasky",
+  "version": "1.0.0",
+  "description": "This is a task management backend app made for a technicall test for recruiting frontend developers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js",
+    "watch": "nodemon ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ounihani/Tasky.git"
+  },
+  "author": "Heni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ounihani/Tasky/issues"
+  },
+  "homepage": "https://github.com/ounihani/Tasky#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "mongoose": "^5.13.7",
+    "nodemon": "^2.0.4",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  }
+}
